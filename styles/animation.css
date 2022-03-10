@@ -1,3 +1,5 @@
+/* loading1 */
+
 @-webkit-keyframes cwSpin
 {
 	0%{-webkit-transform:rotate(0deg);	}
@@ -48,4 +50,32 @@
 {
 	0%{transform:rotate(0deg);	}
 	100%{transform:rotate(-360deg); }
+}
+
+/* loading2 */
+
+@-webkit-keyframes maskMove
+{
+	0%{margin:0 0 0 50px;}
+	100%{margin:0 0 0 350px;}
+}
+@-moz-keyframes maskMove
+{
+	0%{margin:0 0 0 50px;}
+	100%{margin:0 0 0 350px;}
+}
+@-o-keyframes maskMove
+{
+	0%{margin:0 0 0 50px;}
+	100%{margin:0 0 0 350px;}
+}
+@-ms-keyframes maskMove
+{
+	0%{margin:0 0 0 50px;}
+	100%{margin:0 0 0 350px;}
+}
+@keyframes maskMove
+{
+	0%{margin:0 0 0 50px;}
+	100%{margin:0 0 0 350px;}
 }

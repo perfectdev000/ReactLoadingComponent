@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.scss'
 import Loading1 from './components/Loading1'
+import Loading2 from './components/Loading2'
 
 const Home: NextPage = () => {
   return (
@@ -14,30 +15,19 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <h1 className="text-[40px]">
+        <h1 className="text-[40px] text-white">
           Loading Components
         </h1>
         <div className='flex flex-wrap justify-center items-center w-full mt-8'>
           <div className='w-60 h-60 border-2 rounded-xl m-16'>
             <Loading1/>
           </div>
-          <div className='w-60 h-60 border-2 rounded-xl m-16'>
-
+          <div className=' h-60 border-2 rounded-xl m-16'>
+            <Loading2/>
           </div>
           <div className='w-60 h-60 border-2 rounded-xl m-16'>
-
+            <Loading1/>
           </div>
-          <div className='w-60 h-60 border-2 rounded-xl m-16'>
-
-          </div>
-          <div className='w-60 h-60 border-2 rounded-xl m-16'>
-
-          </div>
-          <div className='w-60 h-60 border-2 rounded-xl m-16'>
-
-          </div>
-
-
         </div>
       </main>
     </div>
